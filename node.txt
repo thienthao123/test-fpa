@@ -1,0 +1,15 @@
+https://developers.facebook.com/docs/graph-api/reference/page/conversations/
+https://developers.facebook.com/tools/explorer/?method=GET&path=m_iMbJ9gcfeexjs-CUzcxP73qQK7SlVpdwULCBq4UckbRJtEb6KlToZ2Iv-jknThjprsxg9KV5iRjIxgDb8QWmeA%3Ffields%3Dfrom%2Cmessage%2Cto%2Csticker%2Ccreated_time%2Cid%2Ctags%2Cattachments%7Bimage_data%7D%2Cshares&version=v2.9
+
+get user messager : https://developers.facebook.com/tools/explorer/?method=GET&path=430712014039458%2Fconversations%3Ffields%3Dname%2Cmessage_count%2Csenders%2Cid%2Clink%2Cupdated_time%2Ccan_reply&version=v2.12
+
+user : EAAAAUaZA8jlABALapqnn9BBymfm78L1lQhMcUnwAXO6PRWZA6zgwH6DlO4biXXNWkLwSaIBSRQJnvu6wOlRFHcZBLAmQQulVXuh94PfJBMcCk4CTAOVa8ZA9op6g60YaBLL9gPiCB8yXkPRldYXAmTHCt9HVTKvcVo1zBBIg08GZAzoA9M475
+
+king-hai : EAAAAUaZA8jlABAMrh8G8Si1zbZCrFtYEqa320nZCj0qgZAdFrrsxOi6P9HZA9TkZBC1xtTVTEAZBDyotjwnm8FBgcWX85M8oRNDQ4pZBVGXFN8T2RUcA8lWanXgxwmA4ey7CIxoHpB97uEBGWCoLa8KTM451ZClivSM7q1sjM2fCRPLYLzeSflvFv
+
+
+so sánh 2 count
+
+sau đó trừ nhau 
+
+ra limit message > get Mesasages về push vào array
