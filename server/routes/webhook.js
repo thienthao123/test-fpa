@@ -62,7 +62,7 @@ var postRoute = async (req,res,io) =>{
 						 random : Math.floor(Math.random() * 99999999) + 1
 					}
 					try {
-						var test = await hideComment(comment_id,'EAAZAFHBq8FNkBANREVofQasEmVpGMKLriN7iVI6Q4DoUxYQwVt8RnkdI6mtCiV2DXx12nYQcVPyZCHmZBgBz4VTgBkyhHgITwOL2ONHDZC1PItrTcTGdy7nbegbkigHco7Aufmx6cQO5xvrOCMwZA16Nu1DBjPJVxKEGenI3M4m6i2TDZC5ilxGrPSfltHS8GHN80XrRwP3gZDZD')
+						var test = await hideComment(comment_id,'')
 					} catch(e) {
 						// statements
 						console.log(e);

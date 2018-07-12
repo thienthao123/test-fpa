@@ -7,7 +7,6 @@ const User = require('./models/user')
 const idMessageDb = require('./models/idMessage')
 const Messages = require('./models/message')
 const db = require('./lib/db')
-var accessTokenTestPage = "EAAZAFHBq8FNkBAKMQbaWmlJwpYLg6m46jZAdB1SuV1LMvqQ3XIyiIBi0gqoZBxLDSslHVMqKkvn0kD6u8DVbhx8WgX3GQpw2YlNPRqxpP8UltDlzaBNYArr1MxCC7G0b1znDAwTAKgxoXYeWBLSDCzZB4DF5qH8RKriIdOTHLKqbtrVgfbJ2LzBOKV0ZCC0ityM1Aug0yASSiaa0tnKqJ"
 
 
 
@@ -62,7 +61,7 @@ module.exports = (socket) =>{
 			if(!dataIdMessage){
 				console.log('loz')
 			}
-				var send = await sendMessage(dataIdMessage.idMessage,textMessage,'EAAZAFHBq8FNkBAGIuOCPtdxhfduesv7BaRG8Oq0rHNSaCmW9WBnkpJ5mFip6guAmAIVexJq9d1J9CUvbZCyTHQCtIn6yCCjiXyIxGI6DB6cv1QkQGaoUPckiQ2hpP2zGtinFY1apf7eAFSS1Qjhc3jMaTnTGeZC3zO57igrggZDZD')
+				var send = await sendMessage(dataIdMessage.idMessage,textMessage,'')
 				var message = {
 					id : idPage,
 					date : dateString(new Date()),

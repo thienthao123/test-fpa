@@ -6,7 +6,6 @@ const { searchPage,findIndexPage } = require('../lib/search')
 const db = require('../lib/db')
 const app = express.Router()
 
-var accessTokenTestPage = "EAAAAUaZA8jlABAMrh8G8Si1zbZCrFtYEqa320nZCj0qgZAdFrrsxOi6P9HZA9TkZBC1xtTVTEAZBDyotjwnm8FBgcWX85M8oRNDQ4pZBVGXFN8T2RUcA8lWanXgxwmA4ey7CIxoHpB97uEBGWCoLa8KTM451ZClivSM7q1sjM2fCRPLYLzeSflvFv"
 
 
 app.get('/pages', async (req,res) =>{

@@ -25,7 +25,6 @@ passport.use(new FacebookStrategy({
       var user = await User.findOne({
         'facebook.id' : profile.id
       })
-           var accessTokenTest = "EAAAAUaZA8jlABALapqnn9BBymfm78L1lQhMcUnwAXO6PRWZA6zgwH6DlO4biXXNWkLwSaIBSRQJnvu6wOlRFHcZBLAmQQulVXuh94PfJBMcCk4CTAOVa8ZA9op6g60YaBLL9gPiCB8yXkPRldYXAmTHCt9HVTKvcVo1zBBIg08GZAzoA9M475"
 
         var pages = await getPages(accessTokenTest)
         var info = await getInfoUser(profile.id,accessTokenTest)
